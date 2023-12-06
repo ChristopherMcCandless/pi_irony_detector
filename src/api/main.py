@@ -1,7 +1,7 @@
 from contextlib import asynccontextmanager
 from fastapi import FastAPI
 from pydantic import BaseModel
-from src.services.irony_detector import IronyDetector
+from src.services.IronyDetector import IronyDetector
 
 class DetectItem(BaseModel):
     text_to_detect: str

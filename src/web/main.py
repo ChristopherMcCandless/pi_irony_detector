@@ -1,5 +1,5 @@
 import streamlit as st
-from src.services.irony_detector import IronyDetector
+from src.services.IronyDetector import IronyDetector
 
 @st.cache_data
 def get_model():

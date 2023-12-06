@@ -1,0 +1,10 @@
+torch
+numpy
+transformers
+scipy
+
+fastapi
+uvicorn
+httpx
+
+streamlit

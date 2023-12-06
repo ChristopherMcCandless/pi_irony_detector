@@ -1,4 +1,0 @@
-numpy
-transformers
-scipy.special
-streamlit
