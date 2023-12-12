@@ -20,3 +20,4 @@ def test_detect_text_result_should_be_non_irony():
         assert response.status_code == 200
         assert response.json()["irony"] <= 0.5
         assert response.json()["non-irony"] > 0.5
+        

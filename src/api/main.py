@@ -8,6 +8,7 @@ class DetectItem(BaseModel):
 
 Model = IronyDetector()
 
+
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     # prepare models
